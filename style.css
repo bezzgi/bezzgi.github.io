@@ -1,0 +1,433 @@
+body
+{
+    font-family: 'Questrial', sans-serif;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.home
+{
+    background: url("IMG/1.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+/*Navigations-Leiste*/
+
+nav
+{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 50px;
+}
+
+/*Gestalltung der Titel*/
+
+h1
+{
+    color: pink;
+    text-align: center;
+    font-size: 70px;
+}
+
+/*Gestalltung des Namens auf Index-Site*/
+
+.hometitlebox
+{
+    margin-top: 12%;
+    transition: 500ms;
+    width: 100%;
+
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hometitlebox:hover
+{
+    cursor: default;
+}
+
+.hometitlefont
+{
+    font-size: 12vw;
+}
+
+/*Gestalltung des PDF-Buttons auf der Laufbahn-Site*/
+
+.pdf
+{
+    text-align: center;
+    margin-left: 25%;
+    width: 9.3%;
+    border-radius: 100% ;
+    position: relative;
+    box-shadow:0 0 5px rgba(0, 0, 0, 1);
+    background-color: rgb(48, 48, 48);
+    transition: 200ms;
+}
+
+.pdf:hover
+{
+    box-shadow:0 0 20px rgba(0, 0, 0, 1);
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+.pdf:active
+{
+    box-shadow:0 0 2px rgba(0, 0, 0, 1);
+    transform: translateY(1px);
+}
+
+/*Gestaltung des Formulars auf der Kontakt-Site*/
+
+form
+{
+    margin-left: 25%;
+    padding-right: 25%;
+}
+
+form input
+{
+    background: none;
+    width: 98%;
+    border: none;
+    border-bottom: solid 1px white;
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: medium;
+    outline: none;
+}
+
+form input::placeholder
+{
+    font-size: medium;
+}
+
+/*Gestaltung des E-Mail und OpenSource-Buttons und des Send- und Reset-Buttons*/
+
+.mail
+{
+    padding: 12px 20px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    border-radius: 7px;
+    transition: 150ms;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.mail:hover
+{
+    background-color: white;
+    color: rgb(25, 25, 25);
+    cursor: pointer;
+}
+
+.send
+{
+    border: none;
+    background-color: rgb(58, 58, 58);
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    transition: 150ms;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.send:hover
+{
+    background-color: white;
+    color: rgb(25, 25, 25);
+    cursor: pointer;
+}
+
+.send:active
+{
+    background-color: rgb(148, 148, 148);
+}
+
+/*Gestaltung der Links*/
+
+.link
+{
+    text-decoration: none;
+    color: white;
+    background: none;
+    text-align: center;
+    transition: 200ms;
+}
+
+.link:hover
+{
+    background: none;
+    color: rgb(190, 190, 190);
+}
+
+/*Gestalltung der Impressum-Site*/
+
+.impressum
+{
+    text-decoration: none;
+    color: white;
+    background: none;
+    text-align: center;
+}
+
+/*Allgemeines text-Design*/
+
+body div div
+{
+    text-align: left;
+    font-size: medium;
+    margin-left: 25%;
+    letter-spacing: 1px;
+    padding-right: 25%;
+    line-height: 19px;
+}
+
+/*Titelgestalltung der Laufbahn-Site*/
+
+.titellaufbahn
+{
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+/*Dropdownmenu*/
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-shadow: 0 0 20px rgb(0, 0, 0, .25);
+    width: 100%;    
+}
+
+ul li
+{
+    height: 70px;
+    width: 150px;
+    background-color: rgb(58, 58, 58);
+    text-align: center;
+    line-height: 71px;
+    float: left;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 150ms;
+    transition-timing-function:ease-in-out;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+
+ul li a:hover
+{
+    background-color: rgb(39, 39, 39);
+    letter-spacing: 2px;
+    border-left: solid 1px white;
+}
+
+ul li ul li
+{
+    display: none;
+    width: 100%;
+    height: 50px;
+    line-height: 51px;
+}
+
+ul li:hover ul li a
+{
+    box-shadow: none;
+}
+
+ul li:hover ul li
+{
+    display: block;
+    border-bottom: none;
+}
+
+#aktuell
+{
+    background-color: rgb(48, 48, 48);
+}
+
+/*Verweise auf Über mich-Site*/
+
+.verweise
+{
+    padding: 9px 21px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    border-radius: 7px;
+    transition: 150ms;
+    margin-right: 10px;
+}
+
+.verweise:hover
+{
+    background-color: white;
+    color: rgb(25, 25, 25);
+    cursor: pointer;
+}
+
+/*Bilder und Texte auf der Über mich-Site*/
+
+.uebermich
+{
+    padding-right: 25%;
+    text-align: left;
+    font-size: medium;
+    margin-left: 25%;
+    letter-spacing: 1px;
+    line-height: 19px;
+}
+
+.uebermichtext
+{
+    font-size: medium;
+}
+
+.uebermichbild
+{
+    width: 300px;
+    margin-left: 25%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    box-shadow:0 0 5px rgba(0, 0, 0, 1);
+    float: left;
+    transition: 300ms;
+}
+
+.uebermichbild:hover
+{
+    box-shadow:0 0 20px rgba(0, 0, 0, 1);
+    transform: translateY(-1px);
+}
+
+.pool
+{
+    width: 300px;
+    margin-left: 25%;
+    margin-right: 1%;
+    box-shadow:0 0 5px rgba(0, 0, 0, 1);
+    float: left;
+    transition: 300ms;
+    margin-bottom: 50px;
+}
+
+.pool:hover
+{
+    box-shadow:0 0 20px rgba(0, 0, 0, 1);
+    transform: translateY(-1px);
+}
+
+/*Gestaltung der Hobbies-Site*/
+
+.hobbies
+{
+    padding-right: 25%;
+    text-align: left;
+    margin-right: 1%;
+    font-size: medium;
+    margin-left: 25%;
+    letter-spacing: 1px;
+    line-height: 19px;
+}
+
+.hobbiestext
+{
+    font-size: medium;
+}
+
+.hobbiesbild
+{
+    width: 25%;
+    margin-left: 25%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    box-shadow:0 0 5px rgba(0, 0, 0, 1);
+    float: left;
+    transition: 300ms;
+}
+
+.hobbiesbild:hover
+{
+    box-shadow:0 0 20px rgba(0, 0, 0, 1);
+    transform: translateY(-1px);
+}
+
+/*Rsponsive Design*/
+
+
+@media screen and (max-width: 1125px)
+{
+    .hobbiesbild
+{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    box-shadow:0 0 5px rgba(0, 0, 0, 1);
+    float: left;
+    transition: 300ms;
+}
+}
+
+@media screen and (max-width: 877px)
+{
+    .pool
+{
+    width: 300px;
+    margin-left: 25%;
+    margin-right: 1%;
+    box-shadow:0 0 5px rgba(0, 0, 0, 1);
+    float: left;
+    transition: 300ms;
+    margin-bottom: 1px;
+}
+
+}
+
+@media screen and (max-width: 685px) {
+    ul li{
+        width: 103px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    ul li{
+        height: 30px;
+        width: 97px;
+        background-color: rgb(58, 58, 58);
+        text-align: center;
+        line-height: 31px;
+        float: left;
+    }
+
+    nav
+    {
+        height: 30px;
+        border-radius: 0px;
+    }
+
+    ul li ul li
+    {
+        width: 100%;
+        height: 30px;
+        line-height: 31px;
+    }
+}

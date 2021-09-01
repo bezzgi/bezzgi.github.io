@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Beat Salathe - Kontakt</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" >
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="uebermich.html">&Uuml;ber mich</a>
+                <ul>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                </ul>
+            </li>
+            <li><a href="laufbahn.html">Laufbahn</a></li>
+            <li id="aktuell"><a href="kontakt.html">Kontakt</a>
+                <ul>
+                    <li><a href="impressum.html">Impressum</a></li>
+                </ul>
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h1>Kontakt</h1>
+    </div>
+
+    <div>
+        <form action="php/formular.php" target="_blank" method="POST" autocomplete="off">
+        <h3>Kontaktinformationen</h3>
+
+            <input type="text" name="vorname" placeholder="Vorname*" required maxlength="20"> <br><br>
+            <input type="text" name="nachname" placeholder="Nachname*" required maxlength="20"> <br><br>
+            <input type="email" name="e-mail" placeholder="E-Mail*" required> <br><br>
+            <input type="tel" name="tel" placeholder="Handynummer"> <br><br><br>
+
+        <h3>Kontaktgrund</h3> 
+            
+            <input type="text" name="probleme" placeholder="Probleme"> <br><br>
+            <input type="text" name="feedback" placeholder="Feedback"> <br><br>
+            <input type="text" name="sonstiges" placeholder="Sontiges"> <br><br><br>
+
+            <input type="submit" class="send">
+            <input type="reset" class="send">
+            <a href="mailto:salathe.beat@bluewin.ch" class="mail">Mail</a>
+            <a href="https://github.com/bezzgi" class="mail" target="_blank">OpenSource</a>
+            <br><br>
+
+        </form>
+    </div>
+    
+
+</body>
+
+</html>
